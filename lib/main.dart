@@ -39,12 +39,6 @@ class _CalculadoraState extends State<Calculadora> {
     txtResultado.addListener(() {});
   }
 
-  @override
-  void dispose() {
-    txtResultado.dispose();
-    super.dispose();
-  }
-
   //Boton widget
   Widget calcbutton(String btntext, Color btncolor, Color textcolor) {
     return RaisedButton(
